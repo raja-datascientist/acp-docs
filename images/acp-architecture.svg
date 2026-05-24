@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="ACP AI Control Plane architecture">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="720" height="420" rx="12" fill="url(#bg)"/>
+  <text x="360" y="36" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="18" font-weight="700">ACP  AI Control Plane</text>
+  <text x="360" y="58" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Governed execution path</text>
+
+  <g filter="url(#shadow)">
+    <rect x="270" y="78" width="180" height="44" rx="8" fill="#3b82f6"/>
+    <text x="360" y="106" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Agent / Workflow</text>
+  </g>
+  <path d="M360 122 L360 138" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="285" y="140" width="150" height="40" rx="8" fill="#6366f1"/>
+    <text x="360" y="165" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">ACP SDK</text>
+  </g>
+  <path d="M360 180 L360 196" stroke="#64748b" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="235" y="198" width="250" height="44" rx="8" fill="#8b5cf6"/>
+    <text x="360" y="226" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Interceptor / Gateway</text>
+  </g>
+  <path d="M360 242 L360 258" stroke="#64748b" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="255" y="260" width="210" height="40" rx="8" fill="#0ea5e9"/>
+    <text x="360" y="285" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">OPA / Rego Policies</text>
+  </g>
+  <path d="M360 300 L360 316" stroke="#64748b" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="220" y="318" width="280" height="44" rx="8" fill="#10b981"/>
+    <text x="360" y="346" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Allow · Deny · Escalate</text>
+  </g>
+  <path d="M360 362 L360 378" stroke="#64748b" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="210" y="380" width="300" height="28" rx="6" fill="#334155" stroke="#475569"/>
+    <text x="360" y="399" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">Tool · API · Agent execution</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>
