@@ -14,4 +14,4 @@ Used by `acp-ai` PyPI README and docs.
 | `dashboard-traces.png` | Traces |
 | `acp-architecture.svg` | Architecture diagram |
 
-Public URL base: `https://raw.githubusercontent.com/raja-datascientist/acp-docs/main/images/`
+Public URL base: `https://raw.githubusercontent.com/raja-datascientist/acp-docs/refs/heads/main/images/`

@@ -13,7 +13,7 @@ The main codebase lives in the private **ACP** repository. This repo only hosts 
 Raw URL pattern:
 
 ```text
-https://raw.githubusercontent.com/raja-datascientist/acp-docs/main/images/<filename>
+https://raw.githubusercontent.com/raja-datascientist/acp-docs/refs/heads/main/images/<filename>
 ```
 
 ## PyPI
