@@ -13,5 +13,6 @@ Used by `acp-ai` PyPI README and docs.
 | `dashboard-approvals.png` | Approvals |
 | `dashboard-traces.png` | Traces |
 | `acp-architecture.svg` | Architecture diagram |
+| `acp-sequence.svg` | Governed request sequence diagram |
 
 Public URL base: `https://raw.githubusercontent.com/raja-datascientist/acp-docs/refs/heads/main/images/`

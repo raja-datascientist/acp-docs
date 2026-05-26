@@ -8,7 +8,7 @@ The main codebase lives in the private **ACP** repository. This repo only hosts 
 
 | Path | Use |
 |------|-----|
-| [`images/`](images/) | Dashboard screenshots, architecture diagram |
+| [`images/`](images/) | Dashboard screenshots, architecture diagram, sequence diagram |
 
 Raw URL pattern:
 
